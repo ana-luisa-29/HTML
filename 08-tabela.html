@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>tabelas em html</title>
+    </head>
+    <body>
+        <h1>exemplo de tabela</h1>
+
+        <table border="1">
+            <!--cabeçalho da tabela-->
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>produto</th>
+                    <th>quantidade</th>
+                    <th>preço</th>
+                    <th>total</th>
+                </tr>
+                <!--corpo da tabela-->
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>notebook</td>
+                        <td>2</td>
+                        <td>R$ 3.500,00</td>
+                        <td>R$ 4.000,00</td>
+                    </tr>
+                    <tr>
+                        <th>ID</th>
+                        <th>produto</th>
+                        <th>quantidade</th>
+                        <th>preço</th>
+                        <th>total</th>
+                    </tr>
+                    <!--corpo da tabela-->
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>xiaomi 11T pro</td>
+                            <td>2</td>
+                            <td>R$ 2.500,00</td>
+                            <td>R$ 5.000,00</td>
+                        </tr>
+                        <tr>
+                            <th>ID</th>
+                            <th>produto</th>
+                            <th>quantidade</th>
+                            <th>preço</th>
+                            <th>total</th>
+                        </tr>
+                        <!--corpo da tabela-->
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>taclado</td>
+                                <td>2</td>
+                                <td>R$ 50,00</td>
+                                <td>R$ 100,00</td>
+                            </tr>
+                </tbody>
+        </thead>
+        <!--rodapé-->
+        <tfoot>
+            <tr>
+                <td colspan="4">total geral</td>
+                <td>R$4.000,00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!--nova tabela com linhas e colunas mescladas-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">ID</th>
+                <th rowspan="2">podruto</th>
+                <th colspan="2">detailes</th>
+                <th colspan="2">totaldrama</th>
+            </tr>
+            <tr>
+                <th>quantidade</th>
+                <th>price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1506</td>
+                <td>MP3</td>
+                <td>2</td>
+                <td>R$60,00</td>
+                <td>R$68,99</td>
+            </tr>
+            <tr>
+                <td>1938</td>
+                <td>Fone</td>
+                <td>2</td>
+                <td>R$50,00</td>
+                <td>R$68,99</td>
+            </tr>
+            <tr>
+                <td>1395</td>
+                <td>cartão de memória</td>
+                <td>2</td>
+                <td>R$40,00</td>
+                <td>R$68,99</td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+    <!--rodapé-->
+    <tfoot>
+        <tr>
+            <td colspan="4">total geral</td>
+            <td colspan="5">R$68,99</td>
+        </tr>
+    </tfoot>
+</html>
